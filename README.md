@@ -6,7 +6,7 @@ We will hold the state in a container component: switching pages will reset the 
 State is passed down using the Context. 
 Each step will have its own component. For example, the details step's form will be defined in the Steps component. 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

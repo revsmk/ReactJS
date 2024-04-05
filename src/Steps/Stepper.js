@@ -14,13 +14,16 @@ export const Stepper = () => {
         <div className="navbar-collapse collapse">
             <ol className="navbar-nav">
                 <li className="step nav-item">
-                    <span className={getLinkClass("/")}>Contact</span>
+                    <span className={getLinkClass("/")}>Email</span>
                 </li>
                 <li className="step nav-item">
-                    <span className={getLinkClass("/education")}>Education</span>
+                    <span className={getLinkClass("/mobile")}>Mobile</span>
                 </li>
                 <li className="step nav-item">
-                    <span className={getLinkClass("/about")}>About</span>
+                    <span className={getLinkClass("/whatsapp")}>WhatsApp</span>
+                </li>
+                <li className="step nav-item">
+                    <span className={getLinkClass("/language")}>Language</span>
                 </li>
                 <li className="step nav-item">
                     <span className={getLinkClass("/confirm")}>Confirm</span>
